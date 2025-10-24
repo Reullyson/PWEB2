@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffffff, #ffffff);
+  padding: 20px;
+  color: #333;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+.new-task-container input[type="text"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.new-task-container button:hover {
+  background-color: #2980b9;
+}
+
+ul {
+  list-style: none;
+}
+
+li label {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+
+
